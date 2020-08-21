@@ -1,0 +1,13 @@
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <form name="deletepage">
+        <table >
+                 <tr ><td > <label>Delete UserName:</label> <input type="text" ng-model="datadelete.UserNameNew" required/></td></tr>
+                 <tr>
+                    <td><button  ng-disabled="deletepage.datadelete.UserNameNew.$invalid" ng-click ="deletefun(datadelete)">Delete</button> </td>
+                </tr>
+                
+     </table>
+    </form>
+
+    <a href="/" >Back</a>
